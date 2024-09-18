@@ -1,5 +1,5 @@
 def tabela_juros_simples(valor_emprestado, taxa_juros, num_meses):
-    saldo_devedor = valor_emprestado
+    Saldo_devedor = Valor_emprestado/ num_meses
     print(f"\nTabela de Pagamento - Juros Simples")
     print("Mês\tJuros\t\tSaldo Devedor")
     
@@ -11,7 +11,7 @@ def tabela_juros_simples(valor_emprestado, taxa_juros, num_meses):
     return saldo_devedor
 
 def tabela_juros_compostos(valor_emprestado, taxa_juros, num_meses):
-    saldo_devedor = valor_emprestado
+    Saldo_devedor = Valor_emprestado/ num_meses
     print(f"\nTabela de Pagamento - Juros Compostos")
     print("Mês\tJuros\t\tSaldo Devedor")
     
